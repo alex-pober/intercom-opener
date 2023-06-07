@@ -8,13 +8,7 @@ export default function Navbar() {
       </div>
       <ul className="navbar-links">
         <li className="navbar-item">
-          <a href="/">Home</a>
-        </li>
-        <li className="navbar-item">
-          <a href="/about">About</a>
-        </li>
-        <li className="navbar-item">
-          <a href="/contact">Contact</a>
+          <a href="/contact">Sign Up</a>
         </li>
       </ul>
     </nav>

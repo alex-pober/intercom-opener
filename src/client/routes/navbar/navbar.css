@@ -5,13 +5,15 @@
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: #f2f2f20f;
-  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
   z-index: 999; /* Set a high z-index to ensure the navbar is on top of other elements */
 }
 
 .navbar-logo {
-  margin-left: 10px;
+
 }
 
 .navbar-logo > h1 {
@@ -22,11 +24,11 @@
 
 .navbar-links {
   list-style: none;
-  display: flex;
+  padding-right: 40px;
 }
 
 .navbar-item {
-  margin-right: 10px;
+
 }
 
 .navbar-item a {
