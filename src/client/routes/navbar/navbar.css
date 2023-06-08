@@ -6,7 +6,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f2f2f20f;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.3s ease-in-out;
+  background-color: #fa8927;
   padding-left: 20px;
   padding-right: 20px;
   z-index: 999; /* Set a high z-index to ensure the navbar is on top of other elements */

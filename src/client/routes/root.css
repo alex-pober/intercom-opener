@@ -1,8 +1,55 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 58px auto;
+  padding: 0;
   text-align: center;
+}
+
+.App-landing-hook {
+  display: flex;
+  align-items: center;
+  margin-top: -15px;
+}
+
+.App-landing-hook > h1 {
+  font-size: 5vw;
+  margin-right: 5vw;
+  color: #3a3a3ade;
+}
+
+.App-landing-hook > img {
+  margin-left: -20px;
+  max-width: 60%;
+  height: auto;
+  width: auto; /* ie8 */
+}
+
+.App-landing-steps {
+  margin-top: -72px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #3e99a3;
+}
+
+.App-landing-steps__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 1rem;
+  max-width: 32vw;
+  max-width: 250px;
+}
+
+.App-landing-steps__item > img {
+  max-width: 50%;
+  height: auto;
+  width: auto; /* ie8 */
+}
+
+.App-landing-steps__item > h2 {
+  max-width: 300px;
+
 }
 
 .logo {
