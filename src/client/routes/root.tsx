@@ -1,9 +1,10 @@
 import "./root.css";
 
 import { useState } from "react";
-import { Router } from "react-router-dom"
+import { Router, Link } from "react-router-dom"
 import navbar from "./navbar/navbar";
 import reactLogo from "../assets/react.svg";
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -56,8 +57,9 @@ function App() {
       <li><strong>💡 Easy Setup:</strong> Our user-friendly platform makes connecting your FastEntry number a breeze.</li>
     </ul>
     <p>Join the FastEntry revolution today and experience the convenience of swift access to your building. Sign up now and start enjoying a faster, smarter way to enter your apartment!</p>
-    <p><a href="#" className="btn">Sign up now!</a></p>
 
+    <Link to={'/faq'} className="btn">FAQs</Link>
+    
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
