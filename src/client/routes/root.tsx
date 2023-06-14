@@ -23,15 +23,18 @@ function App() {
       <div className="App-landing-steps">
         <div className="App-landing-steps__item">
           <img src="src/client/assets/handingphoneout.png"></img>
-          <h2>1. We give you a dedicated phone number</h2>
+          <h2>Dedicated Number</h2>
+          <p>We give you a dedicated phone number</p>
         </div>
         <div className="App-landing-steps__item">
           <img src="src/client/assets/intercom.png"></img>
-          <h2>2. Hook up your FastEntry number to your front door intercom system.</h2>
+          <h2>Simple Setup</h2>
+          <p>Configure your front door intercom to forward directory calls to your EasyEntry number</p>
         </div>
         <div className="App-landing-steps__item">
           <img src="src/client/assets/answeringrobot.png"></img>
-          <h2>3. FastEntry will automatically pick up the call and open the door instantly.</h2>
+          <h2>Instant Entry</h2>
+          <p>FastEntry will automatically pick up the call and open the door instantly</p>
         </div>
       </div>
 
@@ -59,7 +62,7 @@ function App() {
     <p>Join the FastEntry revolution today and experience the convenience of swift access to your building. Sign up now and start enjoying a faster, smarter way to enter your apartment!</p>
 
     <Link to={'/faq'} className="btn">FAQs</Link>
-    
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
