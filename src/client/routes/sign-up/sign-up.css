@@ -1,0 +1,8 @@
+.Auth {
+  max-width: 500px;
+  min-width: 350px;
+
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: #dce8d3;
+}
